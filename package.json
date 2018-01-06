@@ -2,9 +2,11 @@
   "name": "github-visualizer",
   "version": "1.0.0",
   "description": "Visualize PRs on your repo",
-  "main": "index.js",
+  "main": "/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "pack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,13 @@
   "homepage": "https://github.com/Briik/github-visualizer#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

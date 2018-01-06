@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# the webpack bundle
+dist/bundle.js
+
+# the bable lib
+lib/
