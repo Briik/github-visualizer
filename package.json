@@ -1,0 +1,25 @@
+{
+  "name": "github-visualizer",
+  "version": "1.0.0",
+  "description": "Visualize PRs on your repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Briik/github-visualizer.git"
+  },
+  "keywords": [
+    "react",
+    "github",
+    "API",
+    "graphql"
+  ],
+  "author": "Briik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Briik/github-visualizer/issues"
+  },
+  "homepage": "https://github.com/Briik/github-visualizer#readme"
+}
