@@ -1,7 +1,7 @@
-#github-visualizer
+github-visualizer
 ---
 
-##Setup
+Setup
 ```
 npm install
 npm run build
