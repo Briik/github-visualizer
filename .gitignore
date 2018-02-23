@@ -62,3 +62,6 @@ dist/bundle.js
 
 # the bable lib
 lib/
+
+# DS_Store because Macs
+.DS_Store
