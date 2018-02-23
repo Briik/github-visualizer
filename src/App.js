@@ -1,5 +1,12 @@
 import React, { PureComponent } from 'react';
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import Home from './Home';
 
 export default class App extends PureComponent {
-  render = () => <h1>Hello World</h1>
+  render = () =>(
+    <Router>
+      <Switch>
+        <Route component={Home} />
+      </Switch>
+    </Router>);
 }
