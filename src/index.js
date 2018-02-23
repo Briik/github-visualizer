@@ -6,6 +6,6 @@ const component = () => {
   let element = document.createElement('div');
   element.setAttribute('id', 'root');
   return element;
-}
+};
 document.body.appendChild(component());
 ReactDOM.render(<App />, document.getElementById('root'));
